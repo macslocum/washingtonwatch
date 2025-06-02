@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.34" />
+
+   <link rel="stylesheet" href="http://www.mikeswashingtonwatch.com/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.mikeswashingtonwatch.com/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.mikeswashingtonwatch.com/index.xml" />
+
+   <title>Mike's Washington Watch: March 2007 Archives</title>
+
+   <link rel="start" href="http://www.mikeswashingtonwatch.com/" title="Home" />
+   
+   
+</head>
+<body class="layout-two-column-right date-based-archive">
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+         <div id="banner">
+            <div id="banner-inner" class="pkg">
+               <h1 id="banner-header"><a href="http://www.mikeswashingtonwatch.com/" accesskey="1">Mike's Washington Watch</a></h1>
+               <h2 id="banner-description">A collection of analysis, news and restaurant reviews from Mike Berman.</h2>
+            </div>
+         </div>
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+                     
+                     <p class="content-nav">
+                        
+                        <a href="http://www.mikeswashingtonwatch.com/">Main</a>
+                        
+                     </p>
+                     <h2 id="archive-title">March 2007 Archives</h2>
+                     
+                                          <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.mikeswashingtonwatch.com/archives/2007/03/index.shtml#000001"
+    trackback:ping="http://www.mikeswashingtonwatch.com/cgi-bin/movabletype/mt-tb.cgi/1"
+    dc:title="test"
+    dc:identifier="http://www.mikeswashingtonwatch.com/archives/2007/03/index.shtml#000001"
+    dc:subject="Test Category"
+    dc:description="test"
+    dc:creator=""
+    dc:date="2007-03-23T20:21:10-05:00" />
+</rdf:RDF>
+-->
+
+
+                     <h2 class="date-header">March 23, 2007</h2>
+                     <a id="a000001"></a>
+                     <div class="entry" id="entry-1">
+                        <h3 class="entry-header">test</h3>
+                        <div class="entry-content">
+                                                            <div class="entry-body">
+                                 test
+                              </div>
+                              
+                              
+                                                            <div class="entry-tags">
+                                  <h4 class="entry-tags-header">Tags:</h4> 
+                                  <ul class="entry-tags-list">
+                                                                                <li class="entry-tag"><a href="http://www.mikeswashingtonwatch.com/cgi-bin/movabletype/mt-search.cgi?tag=test&amp;blog_id=1" rel="tag">test</a></li>
+                                      
+                                  </ul>
+                              </div>
+                              
+                        </div>
+                        <p class="entry-footer">
+                           <span class="post-footers">
+                                                                  Posted on March 23, 2007  8:21 PM
+                               
+                           </span> 
+                           <span class="separator">|</span> <a class="permalink" href="http://www.mikeswashingtonwatch.com/archives/2007/03/test.shtml">Permalink</a>
+                           
+                           | <a href="http://www.mikeswashingtonwatch.com/archives/2007/03/test.shtml#trackback">TrackBacks (0)</a>
+                        </p>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div id="beta">
+                  <div id="beta-inner" class="pkg">
+
+                      <div class="module-search module">
+                         <h2 class="module-header">Search</h2>
+                         <div class="module-content">
+                            <form method="get" action="http://www.mikeswashingtonwatch.com/cgi-bin/movabletype/mt-search.cgi">
+                               <input type="hidden" name="IncludeBlogs" value="1" />
+                               <label for="search" accesskey="4">Search this blog:</label><br />
+                               <input id="search" name="search" size="20" />
+                               <input type="submit" value="Search" />
+                            </form>
+                         </div>
+                      </div>
+
+                      <div class="module-welcome module">
+                         <h2 class="module-header">About March 2007</h2>
+                         <div class="module-content">
+                             <p class="first">This page contains all entries posted to Mike's Washington Watch in <strong>March 2007</strong>. They are listed from oldest to newest.</p>
+                                 
+                                 
+
+                             <p>Many more can be found on the <a href="http://www.mikeswashingtonwatch.com/">main index page</a> or by looking through <a href="http://www.mikeswashingtonwatch.com/archives.html">the archives</a>.</p>
+                             
+                         </div>
+                      </div>
+
+                      <div class="module-syndicate module">
+                         <div class="module-content">
+                            <a href="http://www.mikeswashingtonwatch.com/atom.xml">Subscribe to this blog's feed</a><br />
+                            [<a href="http://www.sixapart.com/about/feeds">What is this?</a>]
+                         </div>
+                      </div>
+
+                      
+
+                      <div class="module-powered module">
+                         <div class="module-content">
+                            Powered by<br /><a href="http://www.sixapart.com/movabletype/">Movable Type 3.34</a>
+                         </div>
+                      </div>
+
+                 </div>
+              </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
