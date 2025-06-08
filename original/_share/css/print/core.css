@@ -1,0 +1,126 @@
+body {
+	background: #FFF;
+	color: #222;
+	font: normal 10pt "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;
+}
+
+input,
+select,
+textarea {
+	font-family: "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+/*-  Varnish.
+----------------------------------------------------------------------*/
+#additional, form#search, #navigation {
+	display: none;
+}
+
+a img {
+	border: none;
+}
+
+
+#mast {
+	border-bottom: 1px solid #222;
+	margin-bottom: .5in;
+}
+
+#mast h1 {
+	padding: .5in 0;
+	margin: 0;
+}
+
+
+/*-  Content
+----------------------------------------------------------------------*/
+/*
+	Page entry
+*/
+.entry {
+	margin: 0 0 .6in;
+}
+
+.entry .head {
+	border-bottom: 1px solid #D8DAD2;
+	margin-bottom: 1.3em;
+	padding: .4em 0;
+}
+
+.entry .head h2,
+.entry .head h3 {
+	font: normal 1em Georgia, Garamond, "Times New Roman", Times, serif;
+	float: left;
+	margin: 0;
+	text-transform: uppercase;
+	width: 40%;
+}
+
+.entry .head h2.volume {
+	font-weight: bold;
+}
+
+.entry .head h3 {
+	float: right;
+	text-align: right;
+}
+
+.entry .content {
+	font-size: 1.1em;
+	line-height: 1.36363636364;
+}
+
+.entry .content h3 {
+	font: bold 1.82em "Trebuchet MS", "Lucida Grande", Verdana, Geneva, sans-serif;
+	margin: 0 0 .5em;
+}
+
+.entry .content h3 a {
+	color: #447DA0;
+	text-decoration: none;
+}
+
+.entry .content h3 a:hover {
+	text-decoration: underline;
+}
+
+.entry .content p,
+.entry .content ul,
+.entry .content ol {
+	margin: 0 0 1em;
+}
+
+.entry .content img {
+	background: #FFF;
+	border: 1px solid #B8B8B8;
+	clear: left;
+	float: left;
+	margin: .4em 7px .5em 0;
+	padding: 3px;
+}
+
+.entry .content img.alt {
+	clear: right;
+	float: right;
+}
+
+#footer {
+	border-top: 2px solid #222;
+}
+
+
+/*-  Self-clearing floats
+----------------------------------------------------------------------*/
+.row:after,
+.block:after,
+#navigation:after,
+#content:after,
+.entry:after,
+.entry .head:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

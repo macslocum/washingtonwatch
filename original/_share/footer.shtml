@@ -1,0 +1,11 @@
+	<div id="footer">
+		<p>
+		 <a href="http://original.mikeswashingtonwatch.com">Home</a> | <a href="http://original.mikeswashingtonwatch.com/ww-index.shtml">Washington Watch Archive</a> | <a href="http://original.mikeswashingtonwatch.com/restaurant-index.shtml">Restaurant Review Archive</a> | <a href="http://original.mikeswashingtonwatch.com/index.xml"><img src="/img/feed-icon-10x10.gif" width="10" height="10" border="0" align="bottom" alt="RSS Feed"></a> <a href="http://original.mikeswashingtonwatch.com/index.xml">RSS Feed</a> <br /><br />
+		All content &copy; Mike Berman.  All rights reserved.<br></p>
+	</div><!-- /end #footer -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-305194-5";
+urchinTracker();
+</script>

@@ -1,0 +1,9 @@
+/*-  Self-clearing floats
+----------------------------------------------------------------------*/
+.row,
+.block,
+#content,
+.entry,
+.entry .head {
+	height: 1%;
+}

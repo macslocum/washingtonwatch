@@ -1,0 +1,392 @@
+/*-  Base styles
+----------------------------------------------------------------------*/
+body {
+	background: #BDD4CC url("../../img/bg.jpg") repeat-x;
+	color: #222;
+	font: normal 70% "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	font-family: "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+
+/*-  Varnish.
+----------------------------------------------------------------------*/
+.ineffable {
+	height: 0;
+	left: -1000px;
+	overflow: hidden;
+	position: absolute;
+	width: 0;
+}
+
+a img {
+	border: none;
+}
+
+abbr,
+acronym {
+	border-bottom: none;
+	cursor: help;
+	font-style: normal;
+}
+
+form,
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+input.text {
+	border: 1px solid #7C7C7C;
+	border-color: #7C7C7C #7C7C7C #C3C3C3 #C3C3C3;
+}
+
+a {
+	color: #345F7A;
+}
+
+a:hover {
+	color: #038;
+	text-decoration: none;
+}
+
+
+/*-  Layout
+----------------------------------------------------------------------*/
+#container {
+	background: #FFF;
+	border: 1px solid #DAE0E6;
+	border-top: none;
+	margin: 0 auto;
+	width: 900px;
+}
+
+body.home #main {
+	float: left;
+	width: 675px;
+}
+
+body.archive-index #main {
+	float: left;
+	width: 675px;
+}
+
+body.archive-index-wide #main {
+	float: left;
+	width: 970px;
+}
+
+#additional {
+	float: right;
+	width: 224px;
+}
+
+#footer {
+	clear: both;
+}
+
+
+/*-  Header
+----------------------------------------------------------------------*/
+#mast {
+	background: url("../../img/mast.jpg") no-repeat;
+	height: 156px;
+	position: relative;
+}
+
+body.home #mast {
+	background-image: url("../../img/mast-home.jpg");
+}
+
+body.archive-index #mast {
+	background-image: url("../../img/mast.jpg");
+}
+
+#mast h1 {
+	margin: 0;
+}
+
+#mast h1 img {
+	display: block;
+	height: 156px;
+	width: 400px;
+	visibility: hidden;
+}
+
+#mast form#search {
+	position: absolute;
+	right: 15px;
+	top: 97px;
+}
+
+/*
+	Navigation
+*/
+#navigation,
+#navigation li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation {
+	background: #58564F;
+	border-top: 2px solid #DAE0E6;
+	font: bold 1em Georgia, Garamond, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+
+#navigation a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#navigation li {
+	float: left;
+	text-align: center;
+}
+
+#navigation li a {
+	background: url("../../img/nav.gif") repeat-y 100% 0;
+	display: block;
+	padding: 1em 20px;
+	position: relative;
+}
+
+#navigation li.last a {
+	background: none;
+}
+
+#navigation li a i {
+	background: url("../../img/nav-active.gif") no-repeat;
+	bottom: -4px;
+	display: block;
+	height: 5px;
+	margin-left: -3px;
+	left: -1000em;
+	position: absolute;
+	width: 7px;
+}
+
+#navigation li a:hover i,
+#navigation li a.now i {
+	left: 50%;
+}
+
+
+/*-  Content
+----------------------------------------------------------------------*/
+body.home #content {
+	background: url("../../img/additional.gif") repeat-y 100% 0;
+}
+
+body.archive-index #content {
+	background: url("../../img/additional.gif") repeat-y 100% 0;
+}
+
+#content ul,
+#content ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content ul li {
+	background: url("../../img/bullet.gif") no-repeat 0 .6em;
+	line-height: 1.3;
+	margin-bottom: .5em;
+	padding-left: 10px;
+}
+
+#content .restaurant-box {
+	width: 200px;
+	float: right;
+	border: 1px solid #8BB9EA;
+	padding: 0 5px 10px 5px;
+	margin: 0 0 2px 7px;
+}
+
+
+#content .restaurant-box h1 {
+	font-size: 1.2em;
+	border-bottom: 1px solid #DDD;
+	padding: 0 3px 3px 0;
+}
+
+/*
+	Search form
+*/
+form#search input {
+	vertical-align: middle;
+}
+
+form#search p {
+	margin: 0;
+}
+
+form#search input.text {
+	font-size: 1.2em;
+	width: 128px;
+}
+
+
+/*-  Main
+----------------------------------------------------------------------*/
+#main {
+	padding-top: 40px;
+}
+
+#main ul {
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+
+/*
+	Page entry
+*/
+.entry {
+	margin: 0 20px 45px;
+}
+
+.entry .head {
+	border-bottom: 1px solid #D8DAD2;
+	margin-bottom: 1.3em;
+	padding: .4em 0;
+}
+
+.entry .head h2, .entry .head h3 {
+	font: normal 1em Georgia, Garamond, "Times New Roman", Times, serif;
+	float: left;
+	margin: 0;
+	text-transform: uppercase;
+	width: 40%;
+}
+
+.entry .head h2.volume {
+	font-weight: bold;
+}
+
+.entry .head h3 {
+	float: right;
+	text-align: right;
+}
+
+.entry .content {
+	font-size: 1.1em;
+	line-height: 1.36363636364;
+}
+
+.entry .content h3 {
+	font: bold 1.82em "Trebuchet MS", "Lucida Grande", Verdana, Geneva, sans-serif;
+	margin: 0 0 .5em;
+}
+
+.entry .content h3 a {
+	color: #447DA0;
+	text-decoration: none;
+}
+
+.entry .content h3 a:hover {
+	text-decoration: underline;
+}
+
+.entry .content p,
+.entry .content ul,
+.entry .content ol {
+	margin: 0 0 1em;
+}
+
+.entry .content img {
+	background: #FFF;
+	border: 1px solid #B8B8B8;
+	clear: left;
+	float: left;
+	margin: .4em 7px .5em 0;
+	padding: 3px;
+}
+
+.entry .content img.alt {
+	clear: right;
+	float: right;
+}
+
+.entry blockquote {
+	float: left;
+	margin: 0;
+	padding: 10px 40px 40px 40px;
+}
+
+.entry blockquote div {
+	background: url("../../img/bq-bottom.gif") no-repeat 50% 100%;
+	padding: 0 10px 81px;
+}
+
+.entry blockquote p {
+	margin: 0;
+}
+
+
+/*-  Additional
+----------------------------------------------------------------------*/
+#additional {
+	padding-top: 45px;
+}
+
+#additional form, #additional .module {
+	margin: 0 17px 40px 13px;
+}
+
+#additional .module {
+	font-size: 1.1em;
+}
+
+#additional .module h3 {
+	background: url("../../img/bevel.gif") repeat-x 0 100%;
+	margin-bottom: .9em;
+	padding-bottom: 8px;
+}
+
+
+/*-  Footer
+----------------------------------------------------------------------*/
+#footer {
+	background: #58564F;
+	padding: .5em 25px;
+}
+
+#footer p {
+	color: #FFF;
+}
+
+#footer A {
+	color: #FFF;
+	text-decoration: none;
+	}
+	
+#footer A:hover {
+	text-decoration: underline;
+	}
+
+
+/*-  Self-clearing floats
+----------------------------------------------------------------------*/
+.row:after,
+.block:after,
+#navigation:after,
+#content:after,
+.entry:after,
+.entry .head:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

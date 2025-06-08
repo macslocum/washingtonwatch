@@ -1,0 +1,14 @@
+#main {
+	zoom: 1;
+}
+
+/*-  Self-clearing floats
+----------------------------------------------------------------------*/
+.row,
+.block,
+#navigation,
+#content,
+.entry,
+.entry .head {
+	zoom: 1;
+}

@@ -1,0 +1,19 @@
+<div id="mast">
+		<h1><a href="http://original.mikeswashingtonwatch.com"><img src="/_share/img/logo-mww.gif" alt="Mike Berman&#8217;s Washington Watch" /></a></h1>
+<!--
+		  <form id="search" method="get" action="/<$MTCGIPath$><$MTSearchScript$>">
+        		<fieldset>
+				<p><input type="hidden" name="IncludeBlogs" value="<$MTBlogID$>" />
+         		<input id="search" name="search" size="20" />
+          <input type="image" class="image" src="/_share/img/btn-search.gif" id="btn-search" value="Search" /></p>
+			</fieldset>
+            </form>
+           -->
+		<!-- /end #search -->
+	</div><!-- /end #mast -->
+
+	<ul id="navigation">
+		<li><a href="http://original.mikeswashingtonwatch.com"><i></i>Home</a></li>
+		<li><a href="http://original.mikeswashingtonwatch.com/ww-index.shtml"><i></i>Washington Watch Archive</a></li>
+		<li class="last"><a href="http://original.mikeswashingtonwatch.com/restaurant-index.shtml"><i></i>Restaurant Review Archive</a></li>
+	</ul><!-- /end #navigation -->
